@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title>SKA IS NOT DEAD</title>
+<meta name="viewport" content="width=320, initial-scale=1.0">
+<style>
+@import 'https://fonts.googleapis.com/css?family=Archivo+Black';
+
+html, body {
+  background: url(2tone.png) repeat;
+  animation-name: bg;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.skaisnotdead {
+  position: fixed;
+  display: inline;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: normal;
+  font-size: 8vw;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  animation-name: ska;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes bg {
+    0% { background-position: 0 0; }
+    100% { background-position: -71px -71px; }
+  }
+
+    /*@keyframes ska {
+        0% { color: white; background-color: black;}
+        50% { color: black; background-color: black;}
+        100% { color: white; background-color: black;}
+      }*/
+</style>
+<body>
+  <h1 class="skaisnotdead">SKA IS NOT DEAD</h1>
+</body>
+</html>
